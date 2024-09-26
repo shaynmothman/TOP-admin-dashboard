@@ -7,112 +7,104 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="sidebar">
-        <!-- LOGO IMAGE -->
-         <h1>Dashboard</h1>
-         <!-- MENU -->
-    </div>
-    <div class="main">
-        <div class="header">
-            <!-- SEARCH BAR AND LOGIN -->
-             <!-- WELCOME AND MAIN BUTTONS -->
-              <div class="welcome">
-                <div id="user-welcome">
-                    <p>Hi there,</p>
-                    <p class="hero">Morgan Oakley (@morgan)</p>
-                </div>
-                <div class="main-buttons">
-                    <button>New</button>
-                    <button>Upload</button>
-                    <button>Share</button>
-                </div>
-              </div>
-        </div>
-        <div class="container">
-            <div id="projects">
-                <h2>Your Projects</h2>
-                <div id="project-card-container">
-                    <div class="card project">
-                        <h3>Super Cool Project</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione dolor ex iste totam repudiandae molestiae neque possimus beatae!</p>
-                        <div class="project-icons">
-                            <!-- ICONS -->
-                        </div>
-                    </div>
-                    <div class="card project">
-                        <h3>Less Cool Project</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione dolor ex iste totam repudiandae molestiae neque possimus beatae!</p>
-                        <div class="project-icons">
-                            <!-- ICONS -->
-                        </div>
-                    </div>
-                    <div class="card project">
-                        <h3>Impossible App</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione dolor ex iste totam repudiandae molestiae neque possimus beatae!</p>
-                        <div class="project-icons">
-                            <!-- ICONS -->
-                        </div>
-                    </div>
-                    <div class="card project">
-                        <h3>Easy Peasy App</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione dolor ex iste totam repudiandae molestiae neque possimus beatae!</p>
-                        <div class="project-icons">
-                            <!-- ICONS -->
-                        </div>
-                    </div>
-                    <div class="card project">
-                        <h3>Add Blocker</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione dolor ex iste totam repudiandae molestiae neque possimus beatae!</p>
-                        <div class="project-icons">
-                            <!-- ICONS -->
-                        </div>
-                    </div>
-                    <div class="card project">
-                        <h3>Money Maker</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione dolor ex iste totam repudiandae molestiae neque possimus beatae!</p>
-                        <div class="project-icons">
-                            <!-- ICONS -->
-                        </div>
-                    </div>
-                </div>
+    <div id="site-container">
+        <div id="sidebar">
+            <div class="icon" id="logo-container">
+                <h1>Dashboard</h1>
             </div>
-            <div id="right-panel">
-                <div class="announcements">
+            <div id="menu-one">
+                <ul>
+                    <li class="icon">Home</li>
+                    <li class="icon">Profile</li>
+                    <li class="icon">Messages</li>
+                    <li class="icon">History</li>
+                    <li class="icon">Tasks</li>
+                    <li class="icon">Communities</li>
+                </ul>
+            </div>
+            <div id="menu-two">
+                <ul>
+                    <li class="icon">Settings</li>
+                    <li class="icon">Support</li>
+                    <li class="icon">Privacy</li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <div id="header"></div>
+            <div id="content">
+                <div id="project-area">
+                    <h2>Your Projects</h2>
+                    <div id="project-cards">
+                        <div class="card">
+                            <h3>Super Cool Project</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fuga quisquam nihil vitae accusamus, amet quidem obcaecati temporibus. Iusto architecto impedit exercitationem neque ea. Modi amet nisi fugiat consectetur sequi?</p>
+                        </div>
+                        <div class="card">
+                            <h3>Less Cool Project</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fuga quisquam nihil vitae accusamus, amet quidem obcaecati temporibus. Iusto architecto impedit exercitationem neque ea. Modi amet nisi fugiat consectetur sequi?</p>
+                        </div>
+                        <div class="card">
+                            <h3>Impossible App</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fuga quisquam nihil vitae accusamus, amet quidem obcaecati temporibus. Iusto architecto impedit exercitationem neque ea. Modi amet nisi fugiat consectetur sequi?</p>
+
+                        </div>
+                        <div class="card">
+                            <h3>Easy Peasy App</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fuga quisquam nihil vitae accusamus, amet quidem obcaecati temporibus. Iusto architecto impedit exercitationem neque ea. Modi amet nisi fugiat consectetur sequi?</p>
+
+                        </div>
+                        <div class="card">
+                            <h3>Ad Blocker</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fuga quisquam nihil vitae accusamus, amet quidem obcaecati temporibus. Iusto architecto impedit exercitationem neque ea. Modi amet nisi fugiat consectetur sequi?</p>
+
+                        </div>
+                        <div class="card">
+                            <h3>Money Maker</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fuga quisquam nihil vitae accusamus, amet quidem obcaecati temporibus. Iusto architecto impedit exercitationem neque ea. Modi amet nisi fugiat consectetur sequi?</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="announcements-area">
                     <h2>Announcements</h2>
-                    <div class="card announcements">
+                    <div class="card" id="announcements">
                         <h4>Site Maintenance</h4>
-                        <p>Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet ...</p>
+                        <p>Lorem ipsum dolor sit, amet ...</p>
                         <hr class="solid">
                         <h4>Community Share Day</h4>
-                        <p>Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet ...</p>
+                        <p>Lorem ipsum dolor sit, amet ...</p>
                         <hr class="solid">
                         <h4>Updated Privacy Policy</h4>
-                        <p>Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet ...</p>
-                        <hr class="solid">
+                        <p>Lorem ipsum dolor sit, amet ...</p>
                     </div>
                 </div>
-                <div class="trending">
+                <div id="trending-area">
                     <h2>Trending</h2>
-                    <div class="card trending">
-                        <div class="user">
-                            <!-- ICON -->
-                            <b>@tegan</b>
+                    <div class="card" id="trending">
+                        <div class="user-info icon">
+                            <div class="text">
+                                <b>@tegan</b>
                             <p>World Peace Builder</p>
+                            </div>
                         </div>
-                        <div class="user">
-                            <!-- ICON -->
-                            <b>@morgan</b>
-                            <p>Super Cool Project</p>
+                        <div class="user-info icon">
+                            <div class="text">
+                                <b>@morgan</b>
+                                <p>Super Cool Project</p>
+                            </div>
                         </div>
-                        <div class="user">
-                            <!-- ICON -->
-                            <b>@kendall</b>
-                            <p>Life Changing App</p>
+                        <div class="user-info icon">
+                            <div class="text">
+                                <b>@kendall</b>
+                                <p>Life Changing App</p>
+                            </div>
                         </div>
-                        <div class="user">
-                            <!-- ICON -->
-                            <b>@alex</b>
-                            <p>No Traffic Maker</p>
+                        <div class="user-info icon">
+                            <div class="text">
+                                <b>@alex</b>
+                                <p>No Traffic Maker</p>
+                            </div>
                         </div>
                     </div>
                 </div>
